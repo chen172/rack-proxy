@@ -58,6 +58,7 @@ module Rack
     end
 
     # Return modified env
+    # env是来自客户端的请求
     def rewrite_env(env)
       env
     end
